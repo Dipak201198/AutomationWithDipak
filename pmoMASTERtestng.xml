@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.PmoModuleTest.PmoAdminApproachPageTest"/>
+       <class name="tests.PmoModuleTest.PmoAdminTaskDestinationPageTest"/>
+        <class name="tests.PmoModuleTest.PmoAdminDepartmentPageTest"/>
+         <class name="tests.PmoModuleTest.PmoAdminFrequencyPageTest"/>
+          <class name="tests.PmoModuleTest.PmoAdministratorHeaderFooterPageTest"/>
+          <class name="tests.PmoModuleTest.PmoAdminCraftPageTest"/>
+         <class name="tests.PmoModuleTest.PmoAdminMeasurementuomPageTest"/>
+        <class name="tests.PmoModuleTest.PmoAdminMeasurePageTest"/>
+       <class name="tests.PmoModuleTest.PmoAdminMaterialPageTest"/>
+      <class name="tests.PmoModuleTest.PmoAdministratorRPNPageTest"/>
+     <class name="tests.PmoModuleTest.PmoAdminAssetMaster"/>   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

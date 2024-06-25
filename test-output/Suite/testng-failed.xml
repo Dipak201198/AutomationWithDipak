@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.PmoModuleTest.PmoAdminPartsUOMPageTest">
+        <methods>
+          <include name="editPartsUOM"/>
+          <include name="saveDisablePartsUOM"/>
+          <include name="initializeDriver"/>
+          <include name="duplicatePartsUOM"/>
+          <include name="excelExportPartsUOM"/>
+          <include name="initializeExtentTest"/>
+          <include name="initializeExtentReport"/>
+          <include name="logClassExecutionCompletedMsg"/>
+          <include name="deletePartsUOM"/>
+          <include name="afterMethodUpdateExtentReportWithTestDetails"/>
+          <include name="initPageObject"/>
+        </methods>
+      </class> <!-- tests.PmoModuleTest.PmoAdminPartsUOMPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

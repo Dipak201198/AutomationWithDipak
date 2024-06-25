@@ -1,0 +1,6 @@
+package testdata;
+
+public class EmployeeWorkspaceTestData  extends AuthTestData{
+	public String siteName="Sandbox";
+
+}

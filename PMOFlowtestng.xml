@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="pmoMyWorkspaceModuleTest.PmoMyWorkspaceReviewModuleTest"/>
+      <class name="pmoMyWorkspaceModuleTest.PmoExerciseModuleTest"/>
+      <class name="pmoMyWorkspaceModuleTest.PmoMyWorkspaceTaskOptimizationTest"/>
+      <class name="pmoMyWorkspaceModuleTest.PmoMyWorkspaceHierarchyModuleTest"/>
+      <class name="pmoMyWorkspaceModuleTest.PmoMyWorkspaceOpenRiskTest"/>
+      <class name="pmoMyWorkspaceModuleTest.PmoMyWorkspaceTaskMappingTest"/>
+      <class name="pmoMyWorkspaceModuleTest.PmoMyWorkspaceModuleTest"/>
+      <class name="pmoMyWorkspaceModuleTest.PmoMyWorkspaceReviewJobTest"/>
+      <class name="pmoMyWorkspaceModuleTest.PmoMyWorkspaceJobplanTest"/>
+      <class name="pmoMyWorkspaceModuleTest.PmoMyWorkspaceImpactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
